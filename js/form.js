@@ -6,7 +6,8 @@ $(function () {
             method: "POST",
             data: {
                 message: $('#name').val(),
-                text: $('#text').val()
+                text: $('#text').val(),
+                email: $('#email').val()
             },
             dataType: "json"
         }).done(function() {
