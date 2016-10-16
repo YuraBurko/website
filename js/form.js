@@ -6,9 +6,9 @@ $(function () {
             method: "POST",
             data: {
                 message: $('#name').val(),
-                text: $('#text').val(),
-                email: $('#email').val()
-            },
+                email: $('#email').val(),
+                text: $('#text').val()
+                },
             dataType: "json"
         }).done(function() {
             $('form').html('<h1>Thank you!</h1>')
