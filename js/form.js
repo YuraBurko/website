@@ -1,4 +1,3 @@
-
 $(function () {
     $('#send').click(function(e) {
         e.preventDefault();
@@ -7,7 +6,7 @@ $(function () {
             method: "POST",
             data: {
                 message: $('#name').val(),
-                email: $('#email').val(),
+                message: $('#email').val(),
                 text: $('#text').val()
             },
             dataType: "json"
@@ -18,3 +17,4 @@ $(function () {
         });        
     })
 });
+
