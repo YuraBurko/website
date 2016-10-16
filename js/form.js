@@ -2,12 +2,12 @@ $(function () {
     $('#send').click(function(e) {
         e.preventDefault();
         $.ajax({
-            url: "https://formspree.io/yura_burko@mail.ru", 
+            url: "https://formspree.io/YOUREMAILHERE", 
             method: "POST",
             data: {
                 message: $('#name').val(),
-                textarea: $('#email').val(),
-                text2: $('#text2').val()
+                textmail: $('#mail').val()
+                text: $('#text').val(),
             },
             dataType: "json"
         }).done(function() {
