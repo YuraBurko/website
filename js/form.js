@@ -7,12 +7,12 @@ $(function () {
             data: {
                 message: $('#name').val(),
                 message: $('#email').val(),
-                text: $('#text').val(),
+                text: $('#text').val()
             },
             dataType: "json"
         }).done(function() {
             $('form').html('<h1>Thank you!</h1>')
-        }).fail(function(xhr, err) {
+        $('form').html('<h1>Thank you!</h1>')
             $('form').html(xhr.statusText);
         });        
     })
