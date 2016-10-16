@@ -1,3 +1,4 @@
+
 $(function () {
     $('#send').click(function(e) {
         e.preventDefault();
@@ -5,10 +6,10 @@ $(function () {
             url: "https://formspree.io/yura_burko@mail.ru", 
             method: "POST",
             data: {
-                message: $('#nameyou').val(),
+                message: $('#name').val(),
                 email: $('#email').val(),
                 text: $('#text').val()
-                },
+            },
             dataType: "json"
         }).done(function() {
             $('form').html('<h1>Thank you!</h1>')
