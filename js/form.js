@@ -5,9 +5,9 @@ $(function () {
             url: "https://formspree.io/yura_burko@mail.ru", 
             method: "POST",
             data: {
-                message: $('#name').val(),
-                texts: $('#text').val(),
-                textsx: $('#textss').val()
+                text: $('#name').val(),
+                textm: $('#email').val(),
+                textarea: $('#textv').val()
             },
             dataType: "json"
         }).done(function() {
