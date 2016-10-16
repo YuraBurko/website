@@ -5,7 +5,7 @@ $(function () {
             url: "https://formspree.io/yura_burko@mail.ru", 
             method: "POST",
             data: {
-                text: $('#text').val()
+                text: $('#text').val(),
                 message: $('#name').val(),
                 email: $('#email').val()
                 },
