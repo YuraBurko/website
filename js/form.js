@@ -15,7 +15,7 @@ $(function () {
             },
             dataType: "json"
         }).done(function() {
-            $('form').html('<h5>Thank you!</h5>')
+            $('form').html('<h1>Thank you!</h1>')
         }).fail(function(xhr, err) {
             $('form').html(xhr.statusText);
         });        
