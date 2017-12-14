@@ -6,7 +6,7 @@ $(function () {
             return;
         }
         $.ajax({
-            url: "https://formspree.io/yura_burko@mail.ru", 
+            url: "https://formspree.io/yuraburko32@gmail.com", 
             method: "POST",
             data: {
                 name: $('#name1').val(),
